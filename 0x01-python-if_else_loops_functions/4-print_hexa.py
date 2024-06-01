@@ -5,4 +5,4 @@ while (num != 0)
     mod = num % 16
     hexa.append(mod)
     num = num // 16
-print("0x", end = hexa[::-1])
+print("0x".format(hexa[::-1]))
