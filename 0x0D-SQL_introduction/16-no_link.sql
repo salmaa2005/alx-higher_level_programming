@@ -1,3 +1,3 @@
 -- 
-SELECT score, name WHERE name NOT NULL ORDER BY score DESC
-FROM second_table;
+SELECT score, name FROM second_table WHERE name IS NOT NULL ORDER BY score DESC;
+
